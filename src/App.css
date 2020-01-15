@@ -1,0 +1,28 @@
+
+.indent {
+  padding: 0;
+  margin-left: 1em;
+}
+
+.no-list {
+  list-style: none;
+}
+.black-link {
+  color: black;
+}
+.center {
+  text-align: center
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+td {
+  text-align: center;
+}
